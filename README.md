@@ -51,8 +51,31 @@ We will know we are succesful when we build and code a fully functioning monocop
 * Week 11 (mar 11 - 15): Fabricate CAD design and circuit board
 * Week 12 (mar 18 - 22): Build the final product
 * Week 13 (mar 25 - 28): Final preparations for the first launch
-* Week 14 (apr 1 - apr 5): ALIGN ALL CHAKRAS AND PREPARE
-* Week 14 (apr 8 - apr 12): USE NEWFOUND POWER TO IPROVE
-* Week 15 (apr 15 - apr 19): TRANSCEND REALITY AND ASCEND
-* Week 16 (apr 22 - apr 26): REACH ETERNITY
+* Week 14 (Apr 1 - Apr 5): ALIGN ALL CHAKRAS (Muladhara(Spine Chakra), Svadhisthana(Pelvic Chakra), Manipura(Navel Chakra), Anahata(Heart Chakra), Vishuddhi(Throat Chakra), Ajna(Third Eye Chakra), Sahasrara(Crown Chakra)) AND PREPARE
+Dive into meditation and mindfulness practices to align the seven chakras, fostering a balanced and focused mindset.
+Conduct a thorough review of the project's progress and prepare for the upcoming stages, ensuring every aspect is in harmony.
+Address any lingering issues or challenges in both the CAD design and code, aligning every component for a seamless transition to the next phase.
 
+* Week 15 (Apr 8 - Apr 12): USE NEWFOUND POWER TO IMPROVE
+Leverage the renewed energy and clarity gained from chakra alignment to enhance the project.
+Implement improvements based on feedback and testing from the previous weeks, refining both the hardware and software aspects.
+Collaborate with team members to integrate innovative ideas and optimize the overall performance of the prototype.
+
+* Week 16 (Apr 15 - Apr 19): TRANSCEND REALITY AND ASCEND
+Embrace a forward-thinking mindset and explore possibilities beyond the current scope of the project.
+Experiment with advanced features, pushing the boundaries of the design to achieve a truly innovative and exceptional final product.
+Conduct comprehensive testing to ensure that the project not only meets but exceeds the initial expectations.
+
+* Week 17 (Apr 22 - Apr 26): REACH NIRVANA
+Continue refining and perfecting the project based on insights gained from the transcendental phase.
+Prepare documentation for the final product, ensuring clarity for future development or maintenance.
+Conduct a final review to guarantee that all components are aligned and the project is ready for launch.
+
+* Week 18 (Apr 29 - May 3): CONTINUE NIRVANA JOURNEY
+Address any last-minute adjustments or improvements that may arise during the final preparations.
+Conduct a comprehensive review of the entire project to ensure its readiness for launch.
+
+* Week 19 (May 6 - May 10): FINALIZE AND DOCUMENT EXPERIENCE
+Wrap up any remaining tasks, ensuring that the project is in its best possible state.
+Document the entire development process, including challenges faced and solutions implemented.
+Celebrate the successful completion of the project and prepare for the first launch.
