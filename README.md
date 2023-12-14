@@ -1,7 +1,7 @@
 # PI_in_the_sky_ENGR4
 ## Planning
 ### Project Outline
-We will create a monocopter (maple seed inspired flying machine) that will liftoff, hover for a few seconds, and then float back to the ground, all while collecting data on the altitude and acceleration. If we have time, we will add a remote control, then try to add directional control.
+We will create a monocopter (samsara-inspired flying machine) that will liftoff, hover for a few seconds, and then float back to the ground, all while collecting data on the altitude and acceleration. If we have time, we will add a remote control, then try to add directional control.
 
 ### Materials
 * PICO
