@@ -38,3 +38,16 @@ We will know we are succesful when we build and code a fully functioning monocop
 
 
 ### Schedule
+Week 1 (jan 2 - 5): Finalize CAD and code plans
+Week 2 (jan 8 - 12): Begin CAD and code prototypes
+Week 3 (jan 15 - 19): Work on CAD and code
+Week 4 (jan 22 - 26): Work on CAD and code/wiring
+Week 5 (jan 29 - feb 2): Try to get functional code product
+Week 6 (feb 5 - 9): Work on CAD, troubleshoot code
+Week 7 (feb 12 - 16): Troubleshoot code/wiring
+Week 8 (feb 19 - 23): Finish code and wiring
+Week 9 (feb 26 - mar 1): Finish prototype
+Week 10 (mar 4 - 8): Finalize CAD and circuitboard
+Week 11 (mar 11 - 15): Fabricate CAD design and circuit board
+Week 12 (mar 18 - 22): Build the final product
+Week 13 (mar 25 - 28): Final preparations for the first launch
