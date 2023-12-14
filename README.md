@@ -28,13 +28,18 @@ We will know we are succesful when we build and code a fully functioning monocop
 #### Concerns
 * Uncontrolled flight leading to human + flying machine disagreement
 * Fast motor + sharp propeller + human fingers = BAD NEWS BEARS
+* Energetic imbalance during project development affecting team well-being
+* Overexertion and stress leading to reduced focus and creativity
 
 #### Mitigations
 * Motor will not start until saftey switch has been flipped off, and 10 seconds after launch button has been pressed
 * Saftey glasses worn AT ALL TIMES while launching
 * significant human buffer given to monocopter prior and during launch (20-30 ish ft?)
+* Integrate mindfulness practices into weekly team meetings to address and balance energy levels.
+* Encourage regular breaks and provide resources for stress management.
+* Foster a supportive team environment to share and address individual concerns, promoting overall well-being.
+* Periodic group meditation sessions to enhance focus and maintain a harmonious work atmosphere.
 
-### Iterations
 
 
 ### Schedule
