@@ -51,3 +51,8 @@ We will know we are succesful when we build and code a fully functioning monocop
 * Week 11 (mar 11 - 15): Fabricate CAD design and circuit board
 * Week 12 (mar 18 - 22): Build the final product
 * Week 13 (mar 25 - 28): Final preparations for the first launch
+* Week 14 (apr 1 - apr 5): ALIGN ALL CHAKRAS AND PREPARE
+* Week 14 (apr 8 - apr 12): USE NEWFOUND POWER TO IPROVE
+* Week 15 (apr 15 - apr 19): TRANSCEND REALITY AND ASCEND
+* Week 16 (apr 22 - apr 26): REACH ETERNITY
+
