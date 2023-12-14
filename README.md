@@ -78,4 +78,4 @@ Conduct a comprehensive review of the entire project to ensure its readiness for
 * Week 19 (May 6 - May 10): FINALIZE AND DOCUMENT EXPERIENCE
 Wrap up any remaining tasks, ensuring that the project is in its best possible state.
 Document the entire development process, including challenges faced and solutions implemented.
-Celebrate the successful completion of the project and prepare for the first launch.
+Celebrate the successful completion of the project.
