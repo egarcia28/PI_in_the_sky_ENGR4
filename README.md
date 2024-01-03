@@ -14,6 +14,8 @@ We will create a monocopter (samsara-inspired flying machine) that will liftoff,
 * Button
 * Jumper wires
 * Bolts, nuts, and washers
+* A safe emotional and mental work enviornment
+* A collection of cymbals and singing bowls in order to assist in the allignment of chakras
 
 ### Function
 
@@ -66,7 +68,7 @@ Leverage the renewed energy and clarity gained from chakra alignment to enhance 
 Implement improvements based on feedback and testing from the previous weeks, refining both the hardware and software aspects.
 Collaborate with team members to integrate innovative ideas and optimize the overall performance of the prototype.
 
-* Week 16 (Apr 15 - Apr 19): TRANSCEND REALITY AND ASCEND
+* Week 16 (Apr 15 - Apr 19): TRANSCEND REALITY AND ASCEND TO ANOTHER REALM
 Embrace a forward-thinking mindset and explore possibilities beyond the current scope of the project.
 Experiment with advanced features, pushing the boundaries of the design to achieve a truly innovative and exceptional final product.
 Conduct comprehensive testing to ensure that the project not only meets but exceeds the initial expectations.
