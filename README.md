@@ -42,6 +42,9 @@ We will know we are succesful when we build and code a fully functioning monocop
 * Foster a supportive team environment to share and address individual concerns, promoting overall well-being.
 * Periodic group meditation sessions to enhance focus and maintain a harmonious work atmosphere.
 
+### Sketches
+#### Code block diagram
+#### Potential design sketches
 
 
 ### Schedule
