@@ -44,8 +44,10 @@ We will know we are succesful when we build and code a fully functioning monocop
 
 ### Sketches
 #### Code block diagram
-#### Potential design sketches
+![code block diagram](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/266376856-d6981811-ca07-442e-838a-f10ebdc2a6cd.gif)
 
+#### Potential design sketches
+![design sketches](https://github.com/egarcia28/Engineering_4_Notebook/blob/main/images/266376856-d6981811-ca07-442e-838a-f10ebdc2a6cd.gif)
 
 ### Schedule
 * Week 1 (jan 2 - 5): Finalize CAD and code plans
