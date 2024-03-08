@@ -1,11 +1,10 @@
 # PI_in_the_sky_ENGR4
 ## Planning
 ### Project Outline
-We will create a monocopter (samsara-inspired flying machine) that will liftoff, hover for a few seconds, and then float back to the ground, all while collecting data on the altitude and acceleration. If we have time, we will add a remote control, then try to add directional control.
+We will create a monocopter (samsara-inspired flying machine) that will liftoff, hover for a few seconds, and then float back to the ground, all while collecting data on the and acceleration. If we have time, we will add a remote control, then try to add directional control.
 
 ### Materials
 * PICO
-* Altimeter
 * Accelerometer
 * 420w brushless motor
 * 50A speed controller
@@ -128,6 +127,33 @@ Purpose: Enhancing situational awareness and vision for safe flying.
 7 - Propulsion Powerhouse Chakra (TurboThrusta):
 Location: Engine and propulsion system.
 Purpose: Channeling and amplifying energy for powerful forward movement.
+
+
+## Weekly Documentation
+### Week 1
+
+### Week 2
+
+### Week 3
+
+### Week 4
+
+### Week 5
+
+### Week 6
+
+### Week 7
+
+### Week 8
+
+### Week 9
+
+### Week 10
+
+### Week 11
+
+### Week 12
+
 
 
 
