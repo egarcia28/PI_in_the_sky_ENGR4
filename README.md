@@ -132,9 +132,34 @@ Purpose: Channeling and amplifying energy for powerful forward movement.
 ## Weekly Documentation
 ### Week 1
 
+#### Goal:
+Our week one goal was to develop a rough CAD prototype of our design and research potential design solutiuons.
+
+#### Problems:
+
+#### Picture: 
+
+#### Acomplishments:
+
 ### Week 2
 
+#### Goal:
+
+#### Problems:
+
+#### Picture: 
+
+#### Acomplishments:
+
 ### Week 3
+
+#### Goal:
+
+#### Problems:
+
+#### Picture: 
+
+#### Acomplishments:
 
 ### Week 4
 
