@@ -13,6 +13,7 @@ We will create a monocopter (samsara-inspired flying machine) that will liftoff,
 * Button
 * Jumper wires
 * Bolts, nuts, and washers
+* Aviation Tape
 * A safe emotional and mental work enviornment
 * A collection of cymbals and singing bowls in order to assist in the allignment of chakras
 
