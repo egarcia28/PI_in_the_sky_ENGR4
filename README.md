@@ -165,8 +165,11 @@ For our 3rd launch we decided to transition to another design for launching. We 
 #### 4th/5th Launch
 ![4th Launch](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/Video2%20(1).mov)
 * A video of our 4th launch attempt
+
+  
 ![5th Launch](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/Video3%20(1).mov)
 * A video of our 5th launch attempt
+  
 We kept with the pole-less launch technique in the basketball court for the 4th and 5th launches, however, we decided against using the cardboard box base due to the skipping it caused in our 3rd launch. Generally the launches went well and the monocopter even left the ground (albeit while upside down). The primary issue with these launches was the design of the skids, they had too much friction and caused the monocopter to skip, eventually flipping over. The non pole launching method ended up being significantly better, even allowing us to test 2 times in one day due to the lack of intense force created by the pole.
 
 
