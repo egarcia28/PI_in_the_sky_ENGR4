@@ -139,7 +139,10 @@ Purpose: Channeling and amplifying energy for powerful forward movement.
   * T-shape: Usually small, the motor is positioned on an arm at a right angle to the wing. [Example](https://www.youtube.com/watch?v=u23Hqq8QbeE) 
   * Prop-on-Wing: Usually Medium sized, the motor is mounted on the wing. This is the design we went with, because we didn't have the right tools to build a large wing, and we didn't have the right sized motor for a the T-shape. [Example](https://www.youtube.com/watch?v=I_6EjX8T9Ag) 
 2. All the monocopters of a comparable size we saw used a brushless DC motor ([BLDC](https://en.wikipedia.org/wiki/Brushless_DC_electric_motor)), which has an incredible thrust to weight ratio, so is perfect for small aircrafts.
-3. The wing profile must decrease in angle of attack as it reaches the tip. This is to create equal thrust across the propeller, as seen in commercial propellers. #find image
+3. The wing profile must decrease in angle of attack as it reaches the tip. This is to create equal thrust across the propeller, as seen in commercial propellers.
+
+![blade-pitch](https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/116c315f-17cf-48aa-896f-9e41a6a3908a)
+
 4. To achieve optimal thrust, the monocopter should rotate around the base of the wing, on the front.
 5. The center of rotation and center of mass are slightly different, but the effect is small enough that it doesn't matter.
 6. There are multiple ways to control the direction of a monocopter, you can either use an aileron, or sinusoidal control of the motor (This doesn't matter that much, we didn't reach a stage that we would be able to add directional control).
