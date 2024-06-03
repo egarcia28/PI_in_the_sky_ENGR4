@@ -230,15 +230,21 @@ Woops!
 https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/69b73770-86e2-46dc-af3f-addbff94155d
 
 _A video of our 1st launch attempt_
+
 For our first 2 launches we opted to use a pole to launch off of. Our idea was that the monocopter would be free to spin about its center of rotation/COM which would be impaled by the pole, the monocopter would then produce upwards thrust and move up off the pole. Obviously this came with some challenges evident in the first 2 launch videos. The pole created immense forces on the monocopter that essentially tore it apart, in this video you can see the electronics compartment break and fly off.
 
 #### 2nd Launch
-![2nd Launch](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/Video1%20(1).mov)
+
+https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/a6804a56-957a-4fab-a2d4-1103b6716793
+
 _A video of our 2nd launch attempt_
+
 We again opted to use a pole for our second launch, making changes to the support for the electronics cabin and other small changes to the wing's design (a groove for the motor's wires rather than a hole through the wing, flipping the electronics cabin and removing honycombing, etc.). This launch also suffured due to our metheod of launching, the pole again created huge force on the wing leading to the motor flying off a solid 30ft! More importantly, after this launch we decided that the pole was actually keeping us on the ground.
 
 #### 3rd Launch
+
 ![3rd Launch]()
+
 _A video of our 3rd launch attempt_
 For our 3rd launch we decided to transition to another design for launching. We created a pair of skids to add to the wing so it could freely rotate on the ground allowing the monocopter to find its own center of rotation. We also decided to launch in the basketball court for a smooth floor and protective fences, we also used a large cardboard box to reduce friction even more. The skids worked decently well on the box but we ran into some trouble with it, after the monocopter left the box it skipped off the ground and failed. Luckily due to this new launching method we faced much less damage after the failed launch, the only damage was to the prop which only unscrewed itself from the motor.
 
