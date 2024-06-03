@@ -279,7 +279,10 @@ Note: The last section should read "Prop Unscrews" instead of "Prop," but for so
 * Benny was so so close to flying!!! We should've stuck to the schedule more. 
 ## Final Thoughts:
 The more I think about it, this was crazy ambitious project. There is very little out there about monocopters (Actually some guy, Francis Graham wrote a whole book about them, but it's out of stock \(●´⌓`●)/ ), except a whole lot of videos where they work perfectly and never explain it. We took a lot of enthusiasm and optimism from those videos, but in terms of content, they really didn't help. Also, the physics behind the monocopter is very complex (Mr. Manning said "ask Mr. Eckols" Mr Eckols said "Weeelllll, bErNioUli's principle is…" ) and may require many more brain cells than could be mustered from our undeveloped frontal lobes. Other troubles included our initial use of a center stake on the first two launches, which never was going to work out, and that our overpowered motor keep on ripping pieces off(And we never even balanced our chakras!). However, my adventures with Benny were not fruitless. Along the way, I learned some of CFD, and though it didn't help in the slightest for Benny's flights, CFD is a powerful tool for projects and something I'm definitely going to use in the future. I also got up close and personal with BLDC motors, and learned that they're just big continuous servos if you treat them nicely. And like every book, the real friends were the prize you made along the way. BENNY 4EVER!
-![IMG_1718](https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/5996dac9-80cf-46a6-b89c-1c9181688352)
+
+<div align="center">
+	<img src="https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/40c1150c-5168-432b-9b6c-262b4e0f4fab">
+</div>
 
 
 
