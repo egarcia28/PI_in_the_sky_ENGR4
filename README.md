@@ -134,16 +134,17 @@ Purpose: Channeling and amplifying energy for powerful forward movement.
 ## Photos
 
 ![Profile v3](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/profile%20v3.jpg)
-* Side profile of V3
+_Side profile of V3_
 
 ![Top view v3](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/top%20view%20v3%20(1).jpg)
-* Top view of V3
+_Top view of V3_
 
 ![Top view of V1 wing](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/v1%20top%20wing.jpg)
-* Top view of V1 wing
+_Top view of V1 wing_
   
 ## Circuit Diagram
-
+![Wiring Diagram](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/wiring.jpg)
+_This is our circuit diagram, we used an integrated circuit board for our final product_
 
 ## Motor Shenanigans
 After some very preliminary research we quickly realized that we would have to use a brushless motor for its excellent weight to thrust ratio, making it perftect for anything airborne. However, when looking for examples of using a brushless motor with circuit python/a raspberry pico we found next to nothing (save ![this](https://hackaday.io/project/167826-brushless-nerf-titan50) nerf gun). After much fiddling and testing we settled on a solution. Using an Electronic Speed Controller, a small and compact 850mah 11.1v 3 cell lipo battery, and the ![Samguk](https://www.getfpv.com/dys-samguk-series-wei-2207-2300kv-motor.html) brushless motor (SAMGUK in hand, the world I had), we were able to get the brushless motor working. Because brushless motors (like continuous servos) run with PWM, we can just treat is as such. Inversely, brushless motors do need to be calibrated which took some figuring out (lots of listening to subtley different beeps) but we eventually got it down and detailed everything here.
@@ -165,26 +166,26 @@ This code can also help give a foundation on how to control the motor, -1 is its
 ## Failed launches and other issues
 #### 1st Launch
 ![1st Launch](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/1st%20Launch.mov)
-* A video of our 1st launch attempt
+_A video of our 1st launch attempt_
 For our first 2 launches we opted to use a pole to launch off of. Our idea was that the monocopter would be free to spin about its center of rotation/COM which would be impaled by the pole, the monocopter would then produce upwards thrust and move up off the pole. Obviously this came with some challenges evident in the first 2 launch videos. The pole created immense forces on the monocopter that essentially tore it apart, in this video you can see the electronics compartment break and fly off.
 
 #### 2nd Launch
 ![2nd Launch](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/Video1%20(1).mov)
-* A video of our 2nd launch attempt
+_A video of our 2nd launch attempt_
 We again opted to use a pole for our second launch, making changes to the support for the electronics cabin and other small changes to the wing's design (a groove for the motor's wires rather than a hole through the wing, flipping the electronics cabin and removing honycombing, etc.). This launch also suffured due to our metheod of launching, the pole again created huge force on the wing leading to the motor flying off a solid 30ft! More importantly, after this launch we decided that the pole was actually keeping us on the ground.
 
 #### 3rd Launch
 ![3rd Launch]()
-* A video of our 3rd launch attempt
+_A video of our 3rd launch attempt_
 For our 3rd launch we decided to transition to another design for launching. We created a pair of skids to add to the wing so it could freely rotate on the ground allowing the monocopter to find its own center of rotation. We also decided to launch in the basketball court for a smooth floor and protective fences, we also used a large cardboard box to reduce friction even more. The skids worked decently well on the box but we ran into some trouble with it, after the monocopter left the box it skipped off the ground and failed. Luckily due to this new launching method we faced much less damage after the failed launch, the only damage was to the prop which only unsrewed itself from the motor.
 
 #### 4th/5th Launch
 ![4th Launch](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/Video2%20(1).mov)
-* A video of our 4th launch attempt
+_A video of our 4th launch attempt_
 
   
 ![5th Launch](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/Video3%20(1).mov)
-* A video of our 5th launch attempt
+_A video of our 5th launch attempt_
   
 We kept with the pole-less launch technique in the basketball court for the 4th and 5th launches, however, we decided against using the cardboard box base due to the skipping it caused in our 3rd launch. Generally the launches went well and the monocopter even left the ground (albeit while upside down). The primary issue with these launches was the design of the skids, they had too much friction and caused the monocopter to skip, eventually flipping over. The non pole launching method ended up being significantly better, even allowing us to test 2 times in one day due to the lack of intense force created by the pole.
 
