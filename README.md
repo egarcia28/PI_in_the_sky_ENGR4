@@ -217,12 +217,15 @@ After some very preliminary research we quickly realized that we would have to u
 * Step 3: Ensure that the potentiometer is in the full throttle position and connect the battery to the ESC
 * Step 4: Wait for the 2 beeps that indicate the ESC is in calibration mode
 * Step 5: Rotate the potentiometer to its lowest throttle position and wait for the beeps that indicate that the motor is calibrated
+* Step 6: Disconnect then reconnect the battery and you should have a fully calibrated motor that changes its throttle based on the potentiometer's value
 
 This code can also help give a foundation on how to control the motor, -1 is its lowest throttle position and 1 is its highest.
 
 ## Code
 
-![Here](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/finalCode.py) is our final code prototype.
+[Here](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/finalCode.py) is our final code prototype.
+
+The code i
 
 
 ## Failed launches and other issues
