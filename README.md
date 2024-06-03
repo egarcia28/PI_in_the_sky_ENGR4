@@ -226,7 +226,9 @@ Woops!
 
 ## Failed launches and other issues
 #### 1st Launch
-![1st Launch](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/1st%20Launch.mov)
+
+https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/69b73770-86e2-46dc-af3f-addbff94155d
+
 _A video of our 1st launch attempt_
 For our first 2 launches we opted to use a pole to launch off of. Our idea was that the monocopter would be free to spin about its center of rotation/COM which would be impaled by the pole, the monocopter would then produce upwards thrust and move up off the pole. Obviously this came with some challenges evident in the first 2 launch videos. The pole created immense forces on the monocopter that essentially tore it apart, in this video you can see the electronics compartment break and fly off.
 
