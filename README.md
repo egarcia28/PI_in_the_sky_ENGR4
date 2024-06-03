@@ -18,13 +18,13 @@ We will create a monocopter (samsara-inspired flying machine) that will liftoff,
 * A collection of cymbals and singing bowls in order to assist in the allignment of chakras
 
 ### Function
-
+The function of our monocopter will be a single winged design with thrust provided by a single motor and propeller
 
 ### What we need to learn
 We will need to learn and understand lots of the physics surrounding the balance and lift of the monocopter. For example, on most systems, the center of rotation is the same as the center of mass, but with a monocopter it is displaced slightly leading to more unstable flight if launched from the center of mass rather than rotation.
 
 ### How will we know we are succcesful?
-We will know we are succesful when we build and code a fully functioning monocopter that is passively stable, collects both altitude and acecleration data, and returns to the ground safely.
+We will know we are succesful when we build and code a fully functioning monocopter that is passively stable, collects acecleration data, and returns to the ground safely.
 
 ### Saftey concerns/Risk Mitigation
 #### Concerns
@@ -165,7 +165,7 @@ Purpose: Channeling and amplifying energy for powerful forward movement.
 
 [Google patent for monocopter](https://patents.google.com/patent/US8366055B2/en)
 
-[Lockheed Martin's Monocopter](https://www.youtube.com/watch?v=jtU1ZsjAqsE)
+[Lockheed Martin's Monocopter ( VERY BAD WAR PEOPLE!! :( )](https://www.youtube.com/watch?v=jtU1ZsjAqsE)
 
 [Really Fun Monocopter](https://www.youtube.com/watch?v=HCg5Zve1oao)
 
@@ -212,8 +212,8 @@ _This is our circuit diagram, we used an integrated circuit board for our final 
 After some very preliminary research we quickly realized that we would have to use a brushless motor for its excellent weight to thrust ratio, making it perftect for anything airborne. However, when looking for examples of using a brushless motor with circuit python/a raspberry pico we found next to nothing (save [this](https://hackaday.io/project/167826-brushless-nerf-titan50) nerf gun). After much fiddling and testing we settled on a solution. Using an Electronic Speed Controller, a small and compact 850mah 11.1v 3 cell lipo battery, and the [Samguk](https://www.getfpv.com/dys-samguk-series-wei-2207-2300kv-motor.html) brushless motor (SAMGUK in hand, the world I had), we were able to get the brushless motor working. Because brushless motors (like continuous servos) run with PWM, we can just treat is as such. Inversely, brushless motors do need to be calibrated which took some figuring out (lots of listening to subtley different beeps) but we eventually got it down and detailed everything here.
 
 #### Step by Step calibration
-* Step 1: Connect the signal pin and ground pin from the ESC to the pico and wire a potentiometer referencing ![this]() wiring diagram
-* Step 2: Run ![this]() calibration code on the pico
+* Step 1: Connect the signal pin and ground pin from the ESC to the pico and wire a potentiometer referencing [this](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/wiring.jpg) wiring diagram
+* Step 2: Run [this](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/CalibrationCode.py) calibration code on the pico
 * Step 3: Ensure that the potentiometer is in the full throttle position and connect the battery to the ESC
 * Step 4: Wait for the 2 beeps that indicate the ESC is in calibration mode
 * Step 5: Rotate the potentiometer to its lowest throttle position and wait for the beeps that indicate that the motor is calibrated
@@ -222,7 +222,8 @@ This code can also help give a foundation on how to control the motor, -1 is its
 
 ## Code
 
-Woops!
+![Here](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/finalCode.py) is our final code prototype.
+
 
 ## Failed launches and other issues
 #### 1st Launch
