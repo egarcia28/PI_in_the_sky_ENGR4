@@ -225,7 +225,7 @@ This code can also help give a foundation on how to control the motor, -1 is its
 
 [Here](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/finalCode.py) is our final code prototype.
 
-The code i
+The code is essentially a frankenstiened version of the [Data Storage assignment](https://github.com/egarcia28/Engineering_4_Notebook?tab=readme-ov-file#raspberry_pi_data_storage_1) we did earlier in the year, and a for loop that controls the timings and throttle of the motor.
 
 
 ## Failed launches and other issues
