@@ -135,7 +135,7 @@ Purpose: Channeling and amplifying energy for powerful forward movement.
 
 ### Overall concepts based on research:
 1. There are three different types of monocopter(which all have their own usual sizes):
-  * Sword-Style: Usually large, these have the motor on the opposite side of the wing. [Bad Example] (https://www.youtube.com/watch?v=Me9bTUYIJ6c&list=PLzDYnh_tvZtTz4YUezmdNgfOjBsz4fjhH)  
+  * Sword-Style: Usually large, these have the motor on the opposite side of the wing. [Bad Example](https://www.youtube.com/watch?v=Me9bTUYIJ6c&list=PLzDYnh_tvZtTz4YUezmdNgfOjBsz4fjhH)  
   * T-shape: Usually small, the motor is positioned on an arm at a right angle to the wing. [Example](https://www.youtube.com/watch?v=u23Hqq8QbeE) 
   * Prop-on-Wing: Usually Medium sized, the motor is mounted on the wing. This is the design we went with, because we didn't have the right tools to build a large wing, and we didn't have the right sized motor for a the T-shape. [Example](https://www.youtube.com/watch?v=I_6EjX8T9Ag) 
 2. All the monocopters of a comparable size we saw used a brushless DC motor ([BLDC](https://en.wikipedia.org/wiki/Brushless_DC_electric_motor)), which has an incredible thrust to weight ratio, so is perfect for small aircrafts.
