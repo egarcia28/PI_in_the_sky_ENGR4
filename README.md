@@ -146,6 +146,7 @@ Purpose: Channeling and amplifying energy for powerful forward movement.
 4. To achieve optimal thrust, the monocopter should rotate around the base of the wing, on the front.
 5. The center of rotation and center of mass are slightly different, but the effect is small enough that it doesn't matter.
 6. There are multiple ways to control the direction of a monocopter, you can either use an aileron, or sinusoidal control of the motor (This doesn't matter that much, we didn't reach a stage that we would be able to add directional control).
+7. [Wing Loading](https://en.wikipedia.org/wiki/Wing_loading#:~:text=Wing%20loading%20is%20a%20useful,have%20a%20lower%20stalling%20speed.) should be lower than 10 kg/m^2
 
 ## Research links
 [My Best Friends EVAR!!](https://www.youtube.com/@airlabsutd2880/videos)
