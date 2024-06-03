@@ -205,7 +205,7 @@ _Top view of V3_
 _This is our circuit diagram, we used an integrated circuit board for our final product_
 
 ## Motor Shenanigans
-After some very preliminary research we quickly realized that we would have to use a brushless motor for its excellent weight to thrust ratio, making it perftect for anything airborne. However, when looking for examples of using a brushless motor with circuit python/a raspberry pico we found next to nothing (save ![this](https://hackaday.io/project/167826-brushless-nerf-titan50) nerf gun). After much fiddling and testing we settled on a solution. Using an Electronic Speed Controller, a small and compact 850mah 11.1v 3 cell lipo battery, and the ![Samguk](https://www.getfpv.com/dys-samguk-series-wei-2207-2300kv-motor.html) brushless motor (SAMGUK in hand, the world I had), we were able to get the brushless motor working. Because brushless motors (like continuous servos) run with PWM, we can just treat is as such. Inversely, brushless motors do need to be calibrated which took some figuring out (lots of listening to subtley different beeps) but we eventually got it down and detailed everything here.
+After some very preliminary research we quickly realized that we would have to use a brushless motor for its excellent weight to thrust ratio, making it perftect for anything airborne. However, when looking for examples of using a brushless motor with circuit python/a raspberry pico we found next to nothing (save [this](https://hackaday.io/project/167826-brushless-nerf-titan50) nerf gun). After much fiddling and testing we settled on a solution. Using an Electronic Speed Controller, a small and compact 850mah 11.1v 3 cell lipo battery, and the [Samguk](https://www.getfpv.com/dys-samguk-series-wei-2207-2300kv-motor.html) brushless motor (SAMGUK in hand, the world I had), we were able to get the brushless motor working. Because brushless motors (like continuous servos) run with PWM, we can just treat is as such. Inversely, brushless motors do need to be calibrated which took some figuring out (lots of listening to subtley different beeps) but we eventually got it down and detailed everything here.
 
 #### Step by Step calibration
 * Step 1: Connect the signal pin and ground pin from the ESC to the pico and wire a potentiometer referencing ![this]() wiring diagram
@@ -218,8 +218,7 @@ This code can also help give a foundation on how to control the motor, -1 is its
 
 ## Code
 
-
-
+Woops!
 
 ## Failed launches and other issues
 #### 1st Launch
@@ -235,7 +234,7 @@ We again opted to use a pole for our second launch, making changes to the suppor
 #### 3rd Launch
 ![3rd Launch]()
 _A video of our 3rd launch attempt_
-For our 3rd launch we decided to transition to another design for launching. We created a pair of skids to add to the wing so it could freely rotate on the ground allowing the monocopter to find its own center of rotation. We also decided to launch in the basketball court for a smooth floor and protective fences, we also used a large cardboard box to reduce friction even more. The skids worked decently well on the box but we ran into some trouble with it, after the monocopter left the box it skipped off the ground and failed. Luckily due to this new launching method we faced much less damage after the failed launch, the only damage was to the prop which only unsrewed itself from the motor.
+For our 3rd launch we decided to transition to another design for launching. We created a pair of skids to add to the wing so it could freely rotate on the ground allowing the monocopter to find its own center of rotation. We also decided to launch in the basketball court for a smooth floor and protective fences, we also used a large cardboard box to reduce friction even more. The skids worked decently well on the box but we ran into some trouble with it, after the monocopter left the box it skipped off the ground and failed. Luckily due to this new launching method we faced much less damage after the failed launch, the only damage was to the prop which only unscrewed itself from the motor.
 
 #### 4th/5th Launch
 ![4th Launch](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/Video2%20(1).mov)
@@ -254,7 +253,7 @@ We kept with the pole-less launch technique in the basketball court for the 4th 
 
 https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/b57e180a-b8e6-4365-b505-820613dcf733
 
-Note: The last section should read "Prop Unscrews," but for some reason the video didn't want to do that, so I respected its' decision.
+Note: The last section should read "Prop Unscrews" instead of "Prop," but for some reason the video didn't want to do that, so I respected its' decision.
 
 ## Ramifications of data:
 ### Problems
@@ -268,7 +267,19 @@ Note: The last section should read "Prop Unscrews," but for some reason the vide
 1.Rotational acceleration due to prop thrust is around 5.59 rad/s^2 (Data: 1 rotation from rest takes 1.5 seconds)
 2.Using the [lift formula](https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/lifteq.html#:~:text=The%20lift%20equation%20states%20that,times%20the%20wing%20area%20A.&text=For%20given%20air%20conditions%2C%20shape,Cl%20to%20determine%20the%20lift.), and experimental data for [Lift Coefficient](https://www.jetir.org/papers/JETIR2104199.pdf), and [Air Density](https://macinstruments.com/blog/what-is-the-density-of-air-at-stp/#:~:text=According%20to%20the%20International%20Standard,%3A%200.0765%20lb%2Fft%5E3), and data from the model, (335 g for mass, 0.0522 m^2 for area of wing, radius = 0.284 m) and some math for rotation, we get that it would have to be rotating at a speed of 70.593 rad/s (11.2 rev/s) to achieve enough lift for liftoff. Based on these results I would recommend a change to the wing which creates more lift, either a change of airfoils or increasing angle of attack or area of wing, which would increase the lift generated by the wing.
 
-## Final Version
+# Final reflection:
+## What I'd fix if I had more time:
+1. MORE LIFT. in data, I discuss this more
+2. Move the lid of the counterweight back to the top, for better access
+3. Change the design of the skids to reduce forward pitch
+4. Bring back the cardboard, to reduce friction on the launching ground 
+## Regrets:
+* We should have abandoned the pole after the first launch
+* We should have focused more on data, as our data collection is very limited
+* Benny was so so close to flying!!! We should've stuck to the schedule more. 
+## Final Thoughts:
+The more I think about it, this was crazy ambitious project. There is very little out there about monocopters (Actually some guy, Francis Graham wrote a whole book about them, but it's out of stock \(●´⌓`●)/ ), except a whole lot of videos where they work perfectly and never explain it. We took a lot of enthusiasm and optimism from those videos, but in terms of content, they really didn't help. Also, the physics behind the monocopter is very complex (Mr. Manning said "ask Mr. Eckols" Mr Eckols said "Weeelllll, bErNioUli's principle is…" ) and may require many more brain cells than could be mustered from our undeveloped frontal lobes. Other troubles included our initial use of a center stake on the first two launches, which never was going to work out, and that our overpowered motor keep on ripping pieces off(And we never even balanced our chakras!). However, my adventures with Benny were not fruitless. Along the way, I learned some of CFD, and though it didn't help in the slightest for Benny's flights, CFD is a powerful tool for projects and something I'm definitely going to use in the future. I also got up close and personal with BLDC motors, and learned that they're just big continuous servos if you treat them nicely. And like every book, the real friends were the prize you made along the way. BENNY 4EVER!
+![IMG_1718](https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/5996dac9-80cf-46a6-b89c-1c9181688352)
 
 
 
