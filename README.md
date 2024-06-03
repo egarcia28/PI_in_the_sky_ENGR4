@@ -131,7 +131,7 @@ Purpose: Channeling and amplifying energy for powerful forward movement.
 
 ## CAD
 
-[Link to CAD Model](https://cvilleschools.onshape.com/documents/25e12063cab2a4f64ef09985/w/c376eafbf39511a0f2f7abef/e/96b13dd0f25b07f70c6d5a76?renderMode=0&uiState=665d4ea066f61d0d8f60b5c8)
+[Link to CAD Model](https://cvilleschools.onshape.com/documents/25e12063cab2a4f64ef09985/w/c376eafbf39511a0f2f7abef/e/96b13dd0f25b07f70c6d5a76?renderMode=0&uiState=665d4f6866f61d0d8f60b634)
 
 ### Overall concepts based on research:
 1. There are three different types of monocopter(which all have their own usual sizes):
