@@ -157,7 +157,7 @@ Purpose: Channeling and amplifying energy for powerful forward movement.
 
 [Big Bad Science paper about flight dynamics](https://www.sciencedirect.com/science/article/abs/pii/S1270963820310634)
 
-[Center of rotation stuff](]https://physics.stackexchange.com/questions/212931/instantaneous-centre-of-rotation)
+[Center of rotation stuff](https://physics.stackexchange.com/questions/212931/instantaneous-centre-of-rotation)
 
 [Google patent for monocopter](https://patents.google.com/patent/US8366055B2/en)
 
