@@ -254,9 +254,7 @@ For our 3rd launch we decided to transition to another design for launching. We 
 #### 4th/5th Launch
 
 
-
-
-
+https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/784caf88-4769-432f-9536-8c7c63dace71
 
 
 _A video of our 4th launch attempt_
