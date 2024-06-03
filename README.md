@@ -175,8 +175,10 @@ This basic design is based on [SUTD's AIR Lab's design](https://www.youtube.com/
 ### CFD!!!:
 Computational fluid dynamics, or CFD ([Wikipedia link to spare you a google](https://en.wikipedia.org/wiki/Computational_fluid_dynamics#:~:text=Computational%20fluid%20dynamics%20(CFD)%20is,problems%20that%20involve%20fluid%20flows.)) is basically asking a computer to test if something works. In a professional setting, this greatly decreases prototype material costs, cuts the cost of using an air tunnel, and can be a very powerful tool to test a design quickly. The two CFD programs I used were [ANSYS student](https://www.ansys.com/academic/students/ansys-student) and [SimScale](https://www.simscale.com/) both of which are free!(under a few conditions). I ended only using SimScale for simulation, because ANSYS would've taken to long to learn (Simscale is basically a kiddie version of ANSYS). First I simulated the airfoil by itself 
 ![content](https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/a8992b73-74a3-4100-91fb-7e482f47b8d5)
+
 and then I simulated the whole rotating design 
 ![Screenshot 2024-06-03 12 37 06 AM](https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/79abe983-0b2f-4778-904a-f44e1b9b9372)
+
 Both simulations showed positive result (downward thrust in both), which lead me to me attempting my…
  
 ## First Design:
