@@ -195,6 +195,7 @@ We kept with the pole-less launch technique in the basketball court for the 4th 
 [Link to Data](https://docs.google.com/spreadsheets/d/1bM0AhUifLfCkbIBh3z-04M-wDFiiEIocgrdV81zR7K8/edit?usp=sharing)
 
 https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/b57e180a-b8e6-4365-b505-820613dcf733
+Note: The last section should read "Prop Unscrews," but for some reason the video didn't want to do that, so I respected its' decision.
 
 ## Ramifications of data:
 ### Problems
