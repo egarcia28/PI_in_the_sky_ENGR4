@@ -243,17 +243,28 @@ We again opted to use a pole for our second launch, making changes to the suppor
 
 #### 3rd Launch
 
-![3rd Launch]()
+
+
+https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/e9ad2624-27aa-4048-b8bc-475bc167ab0a
+
 
 _A video of our 3rd launch attempt_
 For our 3rd launch we decided to transition to another design for launching. We created a pair of skids to add to the wing so it could freely rotate on the ground allowing the monocopter to find its own center of rotation. We also decided to launch in the basketball court for a smooth floor and protective fences, we also used a large cardboard box to reduce friction even more. The skids worked decently well on the box but we ran into some trouble with it, after the monocopter left the box it skipped off the ground and failed. Luckily due to this new launching method we faced much less damage after the failed launch, the only damage was to the prop which only unscrewed itself from the motor.
 
 #### 4th/5th Launch
-![4th Launch](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/Video2%20(1).mov)
+
+
+
+
+
+
+
 _A video of our 4th launch attempt_
 
+
+https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/0e759ecd-6952-43de-a88b-3ef4a2c21fba
   
-![5th Launch](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/Video3%20(1).mov)
+
 _A video of our 5th launch attempt_
   
 We kept with the pole-less launch technique in the basketball court for the 4th and 5th launches, however, we decided against using the cardboard box base due to the skipping it caused in our 3rd launch. Generally the launches went well and the monocopter even left the ground (albeit while upside down). The primary issue with these launches was the design of the skids, they had too much friction and caused the monocopter to skip, eventually flipping over. The non pole launching method ended up being significantly better, even allowing us to test 2 times in one day due to the lack of intense force created by the pole.
