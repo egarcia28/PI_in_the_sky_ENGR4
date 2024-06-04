@@ -1,4 +1,4 @@
-import time
+import time                                   #importation  of libraries
 import board
 import pwmio
 import adafruit_mpu6050
@@ -7,7 +7,7 @@ from adafruit_motor import servo
 from analogio import AnalogIn
 from adafruit_simplemath import map_range
 
-maxpower = 1
+maxpower = 1                                #constant throttle and timing variables for motor loop
 spinuptime = 5
 cruisetime = 5
 runawaytime = 10
@@ -15,18 +15,16 @@ runawaytime = 10
 sda_pin = board.GP4                           #defines pin 14 and 15 as SDA and SCL pins
 scl_pin = board.GP5                           #needs to be pins 14 and 15 because they are in the sam I2C bus
 i2c = busio.I2C(scl_pin, sda_pin)
-mpu = adafruit_mpu6050.MPU6050(i2c)            #initializes the sensor
+mpu = adafruit_mpu6050.MPU6050(i2c)           #initializes the sensor
 
-t = 0
+t = 0                                         #initializes variables for time,x,y,and x accel.
 X = 0
 Y = 0
 X = 0
 
-# create a PWMOut object on Pin A2.
-pwm = pwmio.PWMOut(board.GP1, frequency=50)
+pwm = pwmio.PWMOut(board.GP1, frequency=50)   # create a PWMOut object on Pin GP1
 
-# Create a servo object, my_servo.
-my_servo = servo.ContinuousServo(pwm)
+my_servo = servo.ContinuousServo(pwm)         #initializing motor(servo syntax) and potentiometer
 potentiometer = AnalogIn(board.GP26_A0)
 
 starttime = time.monotonic()
