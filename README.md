@@ -3,6 +3,9 @@
 ### Project Outline
 We will create a monocopter (maple seed-inspired flying machine) that will liftoff, hover for a few seconds, and then float back to the ground, all while collecting data on the acceleration. If we have time, we will aim to add remote control of altitude, and ambitiously try to add directional control.
 
+### [Schedule](https://docs.google.com/document/d/1pQayeEdMNE8SRu3rC_TPZwJRhBuPcFR0BpK4Ck0BQyY/edit?usp=sharing)
+Here is our week by week shedule that we hope to stick to throughout the project timeline.
+
 ### Materials
 * PICO
 * Accelerometer
@@ -48,8 +51,7 @@ An early [code block diagram](https://github.com/egarcia28/PI_in_the_sky_ENGR4/b
 
 ### Potential design sketches
 Some [design sketches](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/sketch.jpg), after preliminary research we roughly understood what the different designs for a monocopter type aircraft were, and each of their pros and cons. 
-### [Schedule](https://docs.google.com/document/d/1pQayeEdMNE8SRu3rC_TPZwJRhBuPcFR0BpK4Ck0BQyY/edit?usp=sharing)
-Here is our week by week shedule that we hope to stick to throughout the project timeline.
+
 
 # [IMPORTANT!!](https://docs.google.com/document/d/1OX2BLcDlC8bTRmJvsCjCM4g4kqTqf-fzR08P1DxjED0/edit?usp=sharing)
 
@@ -133,7 +135,7 @@ _Top view of V3_
 _This is our circuit diagram, we used an integrated circuit board for our final product_
 
 ## Motor Shenanigans
-After some very preliminary research we quickly realized that we would have to use a brushless motor for its excellent weight to thrust ratio, making it perftect for anything airborne. However, when looking for examples of using a brushless motor with circuit python/a raspberry pico we found next to nothing (save [this](https://hackaday.io/project/167826-brushless-nerf-titan50) nerf gun). After much fiddling and testing we settled on a solution. Using an Electronic Speed Controller, a small and compact 850mah 11.1v 3 cell lipo battery, and the [Samguk](https://www.getfpv.com/dys-samguk-series-wei-2207-2300kv-motor.html) brushless motor (SAMGUK in hand, the world I had), we were able to get the brushless motor working. Because brushless motors (like continuous servos) run with PWM, we can just treat is as such. An unfamiliar part of this process was the calibration. Unlike servos, brushless motors need to be calibrated which took some figuring out (lots of listening to subtley different beeps) but we eventually got it down and detailed everything below. One wierd quirk of using an ESC with the pico is that out of the 3 25 guage wires leading off the ESC, only 2 are used (signal and ground). The other wire (the red one) only creates problems, sending high voltage back into the pico causing (obvious) problems. Because regular continuous servos have 3 very simillar wires we began by using all 3 eventually frying the board. Although it seems counter intuitive, DO NOT USE THE RED WIRE when using an ESC and pico in conguence.  
+After some very preliminary research we quickly realized that we would have to use a brushless motor for its excellent weight to thrust ratio, making it perftect for anything airborne. However, when looking for examples of using a brushless motor with circuit python/a raspberry pico we found next to nothing (save [this](https://hackaday.io/project/167826-brushless-nerf-titan50) nerf gun). After much fiddling and testing we settled on a solution. Using an Electronic Speed Controller, a small and compact 850mah 11.1v 3 cell lipo battery, and the [Samguk](https://www.getfpv.com/dys-samguk-series-wei-2207-2300kv-motor.html) brushless motor (SAMGUK in hand, the world I had), we were able to get the brushless motor working. Because brushless motors (like continuous servos) run with PWM, we can just treat is as such. An unfamiliar part of this process was the calibration. Unlike servos, brushless motors need to be calibrated which took some figuring out (lots of listening to subtley different beeps) but we eventually got it down and detailed everything below. One wierd quirk of using an ESC with the pico is that out of the 3 25 guage wires leading off the ESC, only 2 are used (signal and ground). The other wire (the red one) only creates problems, sending high voltage back into the pico causing (obvious) problems. Because regular continuous servos have 3 very simillar wires we began by using all 3 eventually frying the board. Although it seems counter intuitive, DO NOT USE THE RED WIRE when using an ESC and pico in congruence.  
 
 ### Step by Step Calibration
 * Step 1: Connect the signal pin and ground pin from the ESC to the pico and wire a potentiometer referencing [this](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/calibration%20wiring.jpg) wiring diagram
