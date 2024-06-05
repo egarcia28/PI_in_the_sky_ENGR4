@@ -258,6 +258,10 @@ The more I think about it, this was crazy ambitious project. There is very littl
 ## Final Thoughts pt. II
 Im glad we went the direction we did with our project, although it may have been ambitious, and not fully functional in the end. I genuninely learned alot about aerodynamics specifically realting to wings and airfoils. Although not entirely necesarry, I am indebted to the research we did into CFD and brushless motor use and specification. Although the true physics are far beyond our level, it was really cool seeing principles at play that we were concomitantly learning about in physics (torqe, moments of inertia, N2L, etc.). The primary regret I hold is in regard to the ammout we were able to test, the most rewarding days (not to mention fun) were those where we went outside to launch. They were also the days we learned the most, not only about our project, but everyone else's too. I'm also proud of the reasearch and dedication to it that both of us, but specifically Kaz showed. Not only was it fascinating and useful, but also inspiring to see someone else just as passionate in the project as myself (maybe even more so) doing their own research and learning alongside myself. Another new aspect that was just as motivating was the assignment of coding reponsibility on myself, this was completely new to me as I had never been on the coding side of the fence for a project. This helped motivate me not only to finish the code, but also to learn how it worked and how to write better code in the future. All in all, I'm more than happy with the direction of our project, how we functioned as a team, our eventual product, and the ways I pushed myself throughout the past semester.
 
+# Extra final flight (it flew!!)
+On the last day of class we were able to do one final test launch, after modifying the skid
+![Final Flight](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/finalflight.mp4)
+
 <div align="center">
 	<img src="https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/40c1150c-5168-432b-9b6c-262b4e0f4fab">
 </div>
