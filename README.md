@@ -1,4 +1,4 @@
-# PI_in_the_sky_ENGR4
+# PI_in_the_sky_ENGR4_KAZ_AND_ELIAS
 ## Planning
 ### Project Outline
 We will create a monocopter (maple seed-inspired flying machine) that will liftoff, hover for a few seconds, and then float back to the ground, all while collecting data on the acceleration. If we have time, we will aim to add remote control of altitude, and ambitiously try to add directional control.
