@@ -1,7 +1,7 @@
 # PI_in_the_sky_ENGR4
 ## Planning
 ### Project Outline
-We will create a monocopter (samsara-inspired flying machine) that will liftoff, hover for a few seconds, and then float back to the ground, all while collecting data on the and acceleration. If we have time, we will add a remote control, then try to add directional control.
+We will create a monocopter (maple seed-inspired flying machine) that will liftoff, hover for a few seconds, and then float back to the ground, all while collecting data on the acceleration. If we have time, we will aim to add remote control of altitude, and ambitiously try to add directional control.
 
 ### Materials
 * PICO
@@ -44,11 +44,10 @@ We will know we are succesful when we build and code a fully functioning monocop
 
 ### Sketches
 #### Code block diagram
-![code block diagram](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/code.jpg)
+An early [code block diagram](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/code.jpg). Although we origionally did this as a requirement, it ended up being very useful, and we pretty much followed it verbatim.
 
 #### Potential design sketches
-![design sketches](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/sketch.jpg)
-
+Some [design sketches](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/sketch.jpg), after preliminary research we roughly understood what the different designs for a monocopter type aircraft were, and each of their pros and cons. 
 ### Schedule
 * Week 1 (jan 2 - 5): Finalize CAD and code plans
 * Week 2 (jan 8 - 12): Begin CAD and code prototypes
@@ -100,34 +99,12 @@ Engage in deep contemplation and meditation to tap into a higher state of creati
 Embrace the spirit of continuous improvement, aligning not just with user needs but with the project's transcendent potential.
 Document the transcendental journey, capturing the essence of growth and evolution that propels the project into a new dimension of success.
 
-# IMPORTANT - THE 7 MONOCOPTER CHAKRAS ARE...
-1 - Rotor Root Chakra (Spinadhar):
-Location: At the base of the monocopter, where the rotor connects.
-Purpose: Grounding and stability, providing a stable foundation for liftoff.
+* Week 21 (May 20 - May 24): Document and make any final changes and adjustments for final launches
 
-2 - Blade Balance Chakra (LevitaBlade):
-Location: Positioned along the length of the rotor blades.
-Purpose: Maintaining equilibrium and balance during flight.
+* Week 22 (May 27 - May 31): PROJECT DUEEE, crunch time!!!
+  
 
-3 - Skyward Spiral Chakra (Ascendana):
-Location: Hovering above the monocopter's cockpit.
-Purpose: Facilitating upward movement and navigation through the skies.
-
-4 - Gyroscopic Gyra Chakra (Spinathought):
-Location: Centered within the gyroscopic system.
-Purpose: Enhancing agility and responsiveness to pilot's thoughts and commands.
-
-5 - Rotor Resonance Chakra (VibraWing):
-Location: Dispersed vibrations throughout the monocopter's frame.
-Purpose: Harmonizing the vibrations for smooth and efficient flight.
-
-6 - Avian Awareness Chakra (BirdSight):
-Location: Near the visual sensors or cameras on the monocopter.
-Purpose: Enhancing situational awareness and vision for safe flying.
-
-7 - Propulsion Powerhouse Chakra (TurboThrusta):
-Location: Engine and propulsion system.
-Purpose: Channeling and amplifying energy for powerful forward movement.
+# [IMPORTANT!!](https://docs.google.com/document/d/1OX2BLcDlC8bTRmJvsCjCM4g4kqTqf-fzR08P1DxjED0/edit?usp=sharing)
 
 ## CAD
 
@@ -209,9 +186,9 @@ _Top view of V3_
 _This is our circuit diagram, we used an integrated circuit board for our final product_
 
 ## Motor Shenanigans
-After some very preliminary research we quickly realized that we would have to use a brushless motor for its excellent weight to thrust ratio, making it perftect for anything airborne. However, when looking for examples of using a brushless motor with circuit python/a raspberry pico we found next to nothing (save [this](https://hackaday.io/project/167826-brushless-nerf-titan50) nerf gun). After much fiddling and testing we settled on a solution. Using an Electronic Speed Controller, a small and compact 850mah 11.1v 3 cell lipo battery, and the [Samguk](https://www.getfpv.com/dys-samguk-series-wei-2207-2300kv-motor.html) brushless motor (SAMGUK in hand, the world I had), we were able to get the brushless motor working. Because brushless motors (like continuous servos) run with PWM, we can just treat is as such. Inversely, brushless motors do need to be calibrated which took some figuring out (lots of listening to subtley different beeps) but we eventually got it down and detailed everything here. One wierd quirk of using an ESC with the pico is that out of the 3 25 guage wires leading off the ESC, only 2 are used (signal and ground). The other wire (the red one) only creates problems, sending high voltage back into the pico causing (obvious) problems. Because regular continuous servos have 3 very simillar wires we began by using all 3 eventually frying the board. Although it seems counter intuitive, DO NOT USE THE RED WIRE when using an ESC and pico in conguence.  
+After some very preliminary research we quickly realized that we would have to use a brushless motor for its excellent weight to thrust ratio, making it perftect for anything airborne. However, when looking for examples of using a brushless motor with circuit python/a raspberry pico we found next to nothing (save [this](https://hackaday.io/project/167826-brushless-nerf-titan50) nerf gun). After much fiddling and testing we settled on a solution. Using an Electronic Speed Controller, a small and compact 850mah 11.1v 3 cell lipo battery, and the [Samguk](https://www.getfpv.com/dys-samguk-series-wei-2207-2300kv-motor.html) brushless motor (SAMGUK in hand, the world I had), we were able to get the brushless motor working. Because brushless motors (like continuous servos) run with PWM, we can just treat is as such. An unfamiliar part of this process was the calibration. Unlike servos, brushless motors need to be calibrated which took some figuring out (lots of listening to subtley different beeps) but we eventually got it down and detailed everything below. One wierd quirk of using an ESC with the pico is that out of the 3 25 guage wires leading off the ESC, only 2 are used (signal and ground). The other wire (the red one) only creates problems, sending high voltage back into the pico causing (obvious) problems. Because regular continuous servos have 3 very simillar wires we began by using all 3 eventually frying the board. Although it seems counter intuitive, DO NOT USE THE RED WIRE when using an ESC and pico in conguence.  
 
-#### Step by Step calibration
+#### Step by Step Calibration
 * Step 1: Connect the signal pin and ground pin from the ESC to the pico and wire a potentiometer referencing [this](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/calibration%20wiring.jpg) wiring diagram
 * Step 2: Run [this](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/CalibrationCode.py) calibration code on the pico
 * Step 3: Ensure that the potentiometer is in the full throttle position and connect the battery to the ESC
@@ -221,11 +198,15 @@ After some very preliminary research we quickly realized that we would have to u
 
 This code can also help give a foundation on how to control the motor, -1 is its lowest throttle position and 1 is its highest.
 
-## Code
+# Code
 
 [Here](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/finalCode.py) is our final code prototype.
 
-The code is essentially a frankenstiened version of the [Data Storage assignment](https://github.com/egarcia28/Engineering_4_Notebook?tab=readme-ov-file#raspberry_pi_data_storage_1) we did earlier in the year, and a for loop that controls the timings and throttle of the motor.
+## Sweeping thoughts and generalizations
+The code is essentially a frankenstiened version of the [Data Storage assignment](https://github.com/egarcia28/Engineering_4_Notebook?tab=readme-ov-file#raspberry_pi_data_storage_1) we did earlier in the year, and a for loop that controls the timings and throttle of the motor. At first we used arbitrary numbers in the for loop for testing purposes, but soon came to the realization that it was going to get very confusing very fast. After swithing over to variables for the for loop timings things functioned better, but not perfect. Even still, not every variable affects the thing it is supposed to, and the timings are still fidly. Data collection worked alot smoother than when I did the [Data Storage assignment](https://github.com/egarcia28/Engineering_4_Notebook?tab=readme-ov-file#raspberry_pi_data_storage_1)(worked first time we tested it). The motor aspect of the code was breifly mentioned [above](https://github.com/egarcia28/PI_in_the_sky_ENGR4/tree/main?tab=readme-ov-file#motor-shenanigans) but it essentially runs the same as a continuous servo, using pwm, and controlled by myservo.throttle(). Although, Wiring does differ so be careful (explained above).
+
+## Interesting Oddities or Tittilating Eccentricities
+During the first 2 launches all of our wiring was done on the backpack circuit board for the pico. For launches 3-5 we switched the accelerometer to a [JST-SH 4-Pin Cable](https://thepihut.com/products/stemma-qt-qwiic-jst-sh-4-pin-cable) (I think?) connected from the circuit board to the accelerometer. This helped eliminate mistrust in ou wiring and made testing and wiring much easier. When we were first prototyping code without data collection, we used delay in our for loop, but once we added data into the mix, we realized that we wouldn't be able to use delay and would have to scrap most of our timings and base everything off of the board's time (time.monotonic()). During tests 3 and 4 the data, liraries, code, and boot.py were all wiped from the pico. This was either due to the BOOTSEL button being held down in the electronics cabin, or a buggy pico. Luckily, for our 5th launch the timings, data collection, and wiping luck all came together to allow a clean test where decent data was collected and timings were adhered to.
 
 
 ## Failed launches and other issues
@@ -281,6 +262,7 @@ https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/b57e180a-b8e6-
 Note: The last section should read "Prop Unscrews" instead of "Prop," but for some reason the video didn't want to do that, so I respected its' decision.
 
 ## Ramifications of data:
+
 ### Problems
 1. Landing gear design needs to be changed, as the inversions are clearly caused by the bumps. 
 2. Things to fix with data collection
@@ -288,21 +270,24 @@ Note: The last section should read "Prop Unscrews" instead of "Prop," but for so
 * Accelerometer at rest reads 12.912 m/s acceleration, misreading somehow
 * End noise is unexplained, did the accelerometer come lose?
 * In raw data the time reset halfway through?
+
 ### Data:
 1.Rotational acceleration due to prop thrust is around 5.59 rad/s^2 (Data: 1 rotation from rest takes 1.5 seconds)
 2.Using the [lift formula](https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/lifteq.html#:~:text=The%20lift%20equation%20states%20that,times%20the%20wing%20area%20A.&text=For%20given%20air%20conditions%2C%20shape,Cl%20to%20determine%20the%20lift.), and experimental data for [Lift Coefficient](https://www.jetir.org/papers/JETIR2104199.pdf), and [Air Density](https://macinstruments.com/blog/what-is-the-density-of-air-at-stp/#:~:text=According%20to%20the%20International%20Standard,%3A%200.0765%20lb%2Fft%5E3), and data from the model, (335 g for mass, 0.0522 m^2 for area of wing, radius = 0.284 m) and some math for rotation, we get that it would have to be rotating at a speed of 70.593 rad/s (11.2 rev/s) to achieve enough lift for liftoff. Based on these results I would recommend a change to the wing which creates more lift, either a change of airfoils or increasing angle of attack or area of wing, which would increase the lift generated by the wing.
 
-# Final reflection:
+# Final reflections:
 
 ## What I'd fix if I had more time:
 1. MORE LIFT. in data, I discuss this more
 2. Move the lid of the counterweight back to the top, for better access
 3. Change the design of the skids to reduce forward pitch
 4. Bring back the cardboard, to reduce friction on the launching ground 
+
 ## Regrets:
 * We should have abandoned the pole after the first launch
 * We should have focused more on data, as our data collection is very limited
 * Benny was so so close to flying!!! We should've stuck to the schedule more. 
+
 ## Final Thoughts pt. I
 The more I think about it, this was crazy ambitious project. There is very little out there about monocopters (Actually some guy, Francis Graham wrote a whole book about them, but it's out of stock (●´⌓`●) ), except a whole lot of videos where they work perfectly and never explain it. We took a lot of enthusiasm and optimism from those videos, but in terms of content, they really didn't help. Also, the physics behind the monocopter is very complex (Mr. Manning said "ask Mr. Eckols" Mr Eckols said "Weeelllll, bErNioUli's principle is…" ) and may require many more brain cells than could be mustered from our undeveloped frontal lobes. Other troubles included our initial use of a center stake on the first two launches, which never was going to work out, and that our overpowered motor keep on ripping pieces off(And we never even balanced our chakras!). However, my adventures with Benny were not fruitless. Along the way, I learned some of CFD, and though it didn't help in the slightest for Benny's flights, CFD is a powerful tool for projects and something I'm definitely going to use in the future. I also got up close and personal with BLDC motors, and learned that they're just big continuous servos if you treat them nicely. And like every book, the real friends were the prize you made along the way. BENNY 4EVER!
 
@@ -312,8 +297,17 @@ The more I think about it, this was crazy ambitious project. There is very littl
 * But we still had enough time to be one of the first groups to do a test launch
 * Our design was easily adaptable, and when we needed to change launching methods it was very simple
 
-## Final Thoughts pt. II
+## The woments when tragedy struck
+* The first launch where the electronics cabin broke off (I was at a 70% confidence level in it's ability to fly)
+* The second launch where the motor launched 30ft breaking its connections (I was at a 50% confidence level in it's ability to fly)
+* When the 1st motor we were testing with inexplicably stopped working
+* When I forgot to wear safety glasses while testing the second motor with a prop attached without safety glasses (I still feel really really bad about this, :( SORRY MR.MILLER)
+* When I broke the wing with a dowl while trying to remove support material
+* When I fried the pico because the red wire was plugged in on the ESC
+* When all our data from launch 3 was wiped
 
+## Final Thoughts pt. II
+Im glad we went the direction we did with our project, although it may have been ambitious, and not fully functional in the end. I genuninely learned alot about aerodynamics specifically realting to wings and airfoils. Although not entirely necesarry, I am indebted to the research we did into CFD and brushless motor use and specification. Although the true physics are far beyond our level, it was really cool seeing principles at play that we were concomitantly learning about in physics (torqe, moments of inertia, N2L, etc.). The primary regret I hold is in regard to the ammout we were able to test, the most rewarding days (not to mention fun) were those where we went outside to launch. They were also the days we learned the most, not only about our project, but everyone else's too. I'm also proud of the reasearch and dedication to it that both of us, but specifically Kaz showed. Not only was it fascinating and useful, but also inspiring to see someone else just as passionate in the project as myself (maybe even more so) doing their own research and learning alongside myself. Another new aspect that was just as motivating was the assignment of coding reponsibility on myself, this was completely new to me as I had never been on the coding side of the fence for a project. This helped motivate me not only to finish the code, but also to learn how it worked and how to write better code in the future. All in all, I'm more than happy with the direction of our project, how we functioned as a team, our eventual product, and the ways I pushed myself throughout the past semester.
 
 <div align="center">
 	<img src="https://github.com/egarcia28/PI_in_the_sky_ENGR4/assets/113209502/40c1150c-5168-432b-9b6c-262b4e0f4fab">
