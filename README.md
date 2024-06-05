@@ -244,7 +244,7 @@ The more I think about it, this was crazy ambitious project. There is very littl
 * But we still had enough time to be one of the first groups to do a test launch
 * Our design was easily adaptable, and when we needed to change launching methods it was very simple
 
-## The woments when tragedy struck
+## The moments when tragedy struck
 * The first launch where the electronics cabin broke off (I was at a 70% confidence level in it's ability to fly)
 * The second launch where the motor launched 30ft breaking its connections (I was at a 50% confidence level in it's ability to fly)
 * When the 1st motor we were testing with inexplicably stopped working
