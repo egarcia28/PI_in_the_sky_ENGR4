@@ -49,6 +49,7 @@ An early [code block diagram](https://github.com/egarcia28/PI_in_the_sky_ENGR4/b
 ### Potential design sketches
 Some [design sketches](https://github.com/egarcia28/PI_in_the_sky_ENGR4/blob/main/images/sketch.jpg), after preliminary research we roughly understood what the different designs for a monocopter type aircraft were, and each of their pros and cons. 
 ### [Schedule](https://docs.google.com/document/d/1pQayeEdMNE8SRu3rC_TPZwJRhBuPcFR0BpK4Ck0BQyY/edit?usp=sharing)
+Here is our week by week shedule that we hope to stick to throughout the project timeline.
 
 # [IMPORTANT!!](https://docs.google.com/document/d/1OX2BLcDlC8bTRmJvsCjCM4g4kqTqf-fzR08P1DxjED0/edit?usp=sharing)
 
