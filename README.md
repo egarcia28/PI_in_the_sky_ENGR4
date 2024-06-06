@@ -6,7 +6,7 @@ We will create a monocopter (maple seed-inspired flying machine) that will lifto
 ### [Schedule](https://docs.google.com/document/d/1pQayeEdMNE8SRu3rC_TPZwJRhBuPcFR0BpK4Ck0BQyY/edit?usp=sharing)
 Here is our week by week shedule that we hope to stick to throughout the project timeline.
 
-### Materials
+### Materials (both planned and actual)
 * PICO
 * Accelerometer
 * 420w brushless motor
@@ -17,8 +17,9 @@ Here is our week by week shedule that we hope to stick to throughout the project
 * Bolts, nuts, and washers
 * Aviation Tape
 * 9mm Wooden Dowel
+* pico circuit board
 * A safe emotional and mental work enviornment
-* A collection of cymbals and singing bowls in order to assist in the allignment of chakras
+* A collection of cymbals and singing bowls in order to assist in the allignment of chakras (sadly, in our actual project/work environment we were unable to aquire these materials)
 
 ### Function
 The function of our monocopter will be a single winged design with thrust provided by a single motor and propeller
